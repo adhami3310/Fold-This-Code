@@ -1,11 +1,15 @@
 [
 	{
-		"keys": ["super+m"],
+		"keys": ["ctrl+shift+;"],
 		"command": "foldthiscode",
 		"args":{
 			"fold":true
 		}
 	},{
-		"keys": ["super+j"],"command": "foldthiscode","args":{"fold":false}
+		"keys": ["ctrl+shift+'"],
+		"command": "foldthiscode",
+		"args":{
+			"fold":false
+		}
 	}
 ]
